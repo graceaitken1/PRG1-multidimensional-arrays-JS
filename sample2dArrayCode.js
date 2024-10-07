@@ -4,7 +4,6 @@ for (const letter of tasks) {
   console.log(letter);
 }
 
-
 const scores = [
   [78, 81, 84],
   [55, 54, 62],
@@ -33,7 +32,6 @@ for (const score of scores) {
   console.log(score);
 }
 
-// Traditional `for` loop when index is needed
 for (let i = 0; i < scores.length; i++) {
   for (let j = 0; j < scores[i].length; j++) {
     console.log(scores[i][j]);
